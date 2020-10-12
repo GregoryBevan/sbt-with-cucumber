@@ -17,4 +17,5 @@ libraryDependencies ++= Seq(
   "io.cucumber"                     %  "cucumber-java8"                  % cucumberVersion  % "it,test",
   "io.cucumber"                     %  "cucumber-jvm"                    % cucumberVersion  % "it,test",
   "io.cucumber"                     %  "cucumber-junit-platform-engine"  % cucumberVersion  % "it,test",
+  "org.assertj"                     %  "assertj-core"                    % "3.14.0"         % "it,test",
 )
