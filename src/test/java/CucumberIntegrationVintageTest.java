@@ -27,7 +27,7 @@ public class CucumberIntegrationVintageTest {
                 "-t", "Living Documentation",
                 "-f", "all",
                 "-toc", "left",
-//                "-numbered",
+                "-numbered",
                 "-sourceHighlighter", "coderay"
         });
 
