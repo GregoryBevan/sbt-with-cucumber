@@ -22,7 +22,7 @@ public class CucumberIntegrationVintageTest {
     public static void generateDocumentation() {
         CukedoctorMain main = new CukedoctorMain();
         main.execute(new String[]{
-                "-o", "\"target/cucumber\"",
+                "-o", "\"public/cucumber\"",
                 "-p", "\"target/cucumber.json\"",
                 "-t", "Living Documentation",
                 "-f", "all",
@@ -31,8 +31,7 @@ public class CucumberIntegrationVintageTest {
                 "-sourceHighlighter", "coderay"
         });
 
-        File generatedFile = FileUtil.loadFile("target/document-one.html");
-        assertThat(Files.exists(Paths.get("target/cucumber.html"))).isTrue();
-        assertThat(Files.exists(Paths.get("target/cucumber.pdf"))).isTrue();
+        assertThat(Files.exists(Paths.get("public/cucumber.html"))).isTrue();
+        assertThat(Files.exists(Paths.get("public/cucumber.pdf"))).isTrue();
     }
 }
