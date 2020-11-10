@@ -45,7 +45,7 @@
 |0
 |0
 |3
-|011ms
+|002ms
 |[green]#*passed*#
 
 12+^|*<<Shopping>>*
@@ -59,10 +59,10 @@
 |0
 |0
 |6
-|040ms
+|050ms
 |[green]#*passed*#
 12+^|*Totals*
-|3|0|3|9|0|0|0|0|0|9 2+|051ms
+|3|0|3|9|0|0|0|0|0|9 2+|053ms
 |===
 
 == *Features*
@@ -70,11 +70,11 @@
 [[Parcours-de-recherche-d'un-article, Parcours de recherche d'un article]]
 === *Parcours de recherche d'un article*
 
-==== Scénario: Recherche d'une article connu
+==== Scénario: Recherche d'un article connu
 
 ==========
 Etant donné que ::
-je connais déjà l'article icon:thumbs-up[role="green",title="Passed"] [small right]#(011ms)#
+je connais déjà l'article icon:thumbs-up[role="green",title="Passed"] [small right]#(002ms)#
 Lorsque ::
 je le cherche dans les rayons icon:thumbs-up[role="green",title="Passed"] [small right]#(000ms)#
 Alors ::
@@ -92,7 +92,7 @@ I have 100 in my wallet icon:thumbs-up[role="green",title="Passed"] [small right
 When ::
 I buy milk with 10 icon:thumbs-up[role="green",title="Passed"] [small right]#(000ms)#
 Then ::
-I should have 90 in my wallet icon:thumbs-up[role="green",title="Passed"] [small right]#(039ms)#
+I should have 90 in my wallet icon:thumbs-up[role="green",title="Passed"] [small right]#(049ms)#
 ==========
 
 ==== Scenario: Track my budget
