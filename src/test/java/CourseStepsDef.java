@@ -1,12 +1,12 @@
-import io.cucumber.java8.Fr;
+import io.cucumber.java8.En;
 
-public class CourseStepsDef implements Fr {
+public class CourseStepsDef implements En {
     public CourseStepsDef() {
-        Etantdonnéque("^je connais déjà l'article$", () -> {
+        Given("^je connais déjà l'article$", () -> {
         });
-        Lorsque("^je le cherche dans les rayons$", () -> {
+        When("^je le cherche dans les rayons$", () -> {
         });
-        Alors("^je le trouve à sa place$", () -> {
+        Then("^je le trouve à sa place$", () -> {
         });
     }
 }

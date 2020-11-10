@@ -1,7 +1,6 @@
-# language: fr
-Fonctionnalité: Parcours de recherche d'un article
+Feature: Parcours de recherche d'un article
 
-  Scénario: Recherche d'une article connu
-	  Etant donné que je connais déjà l'article
-	  Lorsque je le cherche dans les rayons
-	  Alors je le trouve à sa place
+  Scenario: Recherche d'une article connu
+	  Given je connais déjà l'article
+	  When je le cherche dans les rayons
+	  Then je le trouve à sa place
